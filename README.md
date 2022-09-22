@@ -1,50 +1,35 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+## React Tutorial from Scratch– A Step-by-Step Guide (2021 Update)
 
-# Project Name
+This repo holds all the code for a React todos application. You can follow the step by step [guide to building the awesome project here](https://ibaslogic.com/react-tutorial-for-beginners/).
 
-# TO Do List
+## [Click to See the Todos App](https://ibaslogic.github.io/react-todo-project/)
 
-## Built With
+The code is available in the `src` folder. In there, you’ll see two folders named `classBased` and `functionBased` holding the class component and function component code respectively.
 
-- CSS
-- React App
+### Clone the project
 
-## Getting Started
+You can download or clone this project by running this command from your terminal:
 
-To get a local copy of the code and run it, please follow these step:
+```
+git clone https://github.com/Ibaslogic/react-todo-app
+```
 
-1- Clone the repository
-2- Change the directory to the directory of the local copy of the code
-3- Run npm install to install webpack to your local repository
-4- Run npm run build
-5- Run npm start
+This will create a directory in the name of the project folder.
 
-## Authors
+Once you have the project files and folders bootstrapped, open it with your text editor.
 
-👤 **Author1**
+Next, switch inside the project directory and run:
 
-- GitHub: [@githubhandle](https://github.com/X-Elie-X)
-- Twitter: [@twitterhandle](https://twitter.com/ElieHarfoucheX)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/elie-harfouche-3aaa8818a/)
+```
+npm install
+```
 
-## 🤝 Contributing
+This will install all the necessary dependencies in the local `node_modules` folder.
 
-Contributions, issues, and feature requests are welcome!
+Finally, start your development server by running:
 
-Feel free to check the [issues page](../../issues/).
+```
+npm start
+```
 
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+You should see the app in your browser address bar at [http://localhost:3000](http://localhost:3000)
